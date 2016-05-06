@@ -21,6 +21,6 @@ pauseButton.addEventListener("click", function() {
     pauseButton.innerHTML = "Pause";
   } else {
     vid.pause();
-    pauseButton.innerHTML = "Paused";
+    pauseButton.innerHTML = "Play";
   }
 })
