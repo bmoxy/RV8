@@ -24,3 +24,13 @@ pauseButton.addEventListener("click", function() {
     pauseButton.innerHTML = "Play";
   }
 })
+
+/
+$(document).ready(function(){
+    $(".navbar-inverse .navbar-nav>li").hover(function(){
+        $(this).css("active");
+        }, function(){
+        $(this).css("background-color", "pink");
+    });
+});
+*/

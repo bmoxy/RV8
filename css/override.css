@@ -23,11 +23,23 @@ body {
 /* Nav Bar */
 .navbar-inverse {
     background-color: #FAF8F9;
-    border-color: #273B49;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #0d74af;
+}
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #063550;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: #273B49;
+}
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #063550;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #063550;
 }
 .main-section {
   padding: 40px 15px;
@@ -71,9 +83,6 @@ body {
     background-position-y: 0%;
     overflow: hidden;
 }
-video {
-    object-fit: contain;
-}
 /*video { 
     position: absolute;
     top: 315px;
@@ -87,7 +96,7 @@ video {
  background: url('') no-repeat;
   background-size: cover;
   transition: 1s opacity;
-}*/
+}
 video {
     object-fit: fill;
     position: absolute;
@@ -99,8 +108,25 @@ video {
 #video-row{
 	min-height: 250px;
 }
+*/
+video {
+    position: fixed;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
 .stopfade { 
    opacity: .5;
+}
+.img-padding{
+	padding-bottom: 15px;
 }
 .padding {
 	padding-top: 1.75em;
