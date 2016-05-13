@@ -25,7 +25,7 @@ pauseButton.addEventListener("click", function() {
   }
 })
 
-/
+/* Top Nav Hover feature */
 $(document).ready(function(){
     $(".navbar-inverse .navbar-nav>li").hover(function(){
         $(this).css("active");
@@ -33,4 +33,5 @@ $(document).ready(function(){
         $(this).css("background-color", "pink");
     });
 });
-*/
+
+/* Top Nav Active Feature*/
