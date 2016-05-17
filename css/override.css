@@ -41,6 +41,9 @@ body {
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #063550;
 }
+.navbar-inverse .navbar-brand:hover {
+  color: #063550;
+}
 .main-section {
   padding: 40px 15px;
   color: #E9E9E9;
@@ -143,4 +146,11 @@ video {
 .super-padding {
 	padding-top: 6em;
 	padding-bottom: 2em;
+}
+
+/*Google Maps sizing*/
+.google-sizing {
+  width:auto;
+  height:380px;
+  margin: auto
 }
