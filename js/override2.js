@@ -43,7 +43,7 @@ function initialize (){
   };
   var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
   
-  var UR=new google.maps.LatLng(7.5739607,-77.5418024);
+  var UR=new google.maps.LatLng(37.5739607,-77.5418024);
   var Bryan=new google.maps.LatLng(37.5961435,-77.4742985);
 
   var marker=new google.maps.Marker({
@@ -53,8 +53,8 @@ function initialize (){
     position:Bryan,
     });
 
-  marker.setMap(map);
-  marker2.setMap(map);
+	marker2.setMap(map);
+	marker.setMap(map);
 
 }
 google.maps.event.addDomListener(window, 'load', initialize);
