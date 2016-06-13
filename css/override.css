@@ -90,9 +90,9 @@ body {
 }
 
 /* Video CSS */
-@media screen and (max-device-width: 800px) {
+/*@media screen and (max-device-width: 800px) {
   #bgvid #bgpause{ display: none; }
-	}
+	}*/
 .fullscreen-bg {
 	background-size: cover;
 	background-position: top center;
